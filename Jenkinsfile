@@ -1,7 +1,7 @@
 @Library('jenkins-shared-library') _   // gets the global pipeline libraries in system configuration
 
 def configmap = [
-    project: "expense"
+    project: "expense",
     component: "backend"
 ]
 
